@@ -56,8 +56,8 @@
         "compute_VM_fg1_Name": "fg1",
         "compute_VM_fg1_Id": "[resourceId('Microsoft.Compute/virtualMachines',variables('compute_VM_fg1_Name'))]",
         "compute_VM_fg1_Size": "Standard_A3",
-        "compute_VM_fg1_VHD_URI": "[concat('https://','golivearmstorage','.blob.core.windows.net/vhds/',variables('compute_VM_fg1_Name'),'-osdisk.vhd')]",
-        "compute_VM_fg1_Image_URI": "[concat('https://','golivearmstorage','.blob.core.windows.net/vhds/','fortios-4968.vhd')]",
+        "compute_VM_fg1_VHD_URI": "[concat('https://','fortios4968','.blob.core.windows.net/vhds/',variables('compute_VM_fg1_Name'),'-osdisk.vhd')]",
+        "compute_VM_fg1_Image_URI": "[concat('https://','fortios4968','.blob.core.windows.net/vhds/','fortios-4968.vhd')]",
 
         "network_LB_Public_Name": "publicLB",
         "network_LB_Public_Id": "[resourceId('Microsoft.Network/loadBalancers',variables('network_LB_Public_Name'))]",
