@@ -71,7 +71,7 @@
         "network_LB_Public_NatRule_SSH_fg1_PublicPort": "50101",
 
         "network_LB_Public_NatRule_HTTPS_fg1_Name": "fg1HTTPSNat",
-        "network_LB_Public_NatRule_HTTPS_fg1_Id": "[concat(variables('network_LB_Public_Id'),'/inboundNatRules/',variables('network_LB_Public_NatRule_SSH_fg1_Name'))]",
+        "network_LB_Public_NatRule_HTTPS_fg1_Id": "[concat(variables('network_LB_Public_Id'),'/inboundNatRules/',variables('network_LB_Public_NatRule_HTTPS_fg1_Name'))]",
         "network_LB_Public_NatRule_HTTPS_fg1_PublicPort": "50201",
 
         "network_NIC_fg11_Name": "fg1NIC1",
